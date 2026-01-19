@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+header {
+  background: #0a3d91;
+  color: white;
+  padding: 20px;
+}
+
+header img {
+  max-width: 150px;
+}
+
+.fachada img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.servicos {
+  list-style: none;
+  padding: 0;
+}
+
+.servicos li {
+  padding: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #25d366;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1ebe5d;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+}

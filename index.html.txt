@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pneus Bruno - Centro Automotivo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <img src="imagens/logo.png" alt="Pneus Bruno">
+  <h1>Centro Automotivo Pneus Bruno</h1>
+  <p>Segunda a sexta • 08h às 18h</p>
+</header>
+
+<section class="fachada">
+  <img src="imagens/fachada.jpg" alt="Fachada da oficina">
+</section>
+
+<section>
+  <h2>Serviços</h2>
+  <ul class="servicos">
+    <li>Alinhamento</li>
+    <li>Balanceamento</li>
+    <li>Suspensão</li>
+    <li>Freio</li>
+    <li>Borracharia</li>
+    <li>Direção</li>
+    <li>Desempenho de rodas</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Agendar Horário</h2>
+  <form id="agendamento">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="tel" id="telefone" placeholder="WhatsApp" required>
+    <input type="text" id="placa" placeholder="Placa do veículo" required>
+    <input type="text" id="modelo" placeholder="Modelo do veículo (ex: Onix, Gol, Hilux)" required>
+
+    <select id="servico" required>
+      <option value="">Selecione o serviço</option>
+      <option>Alinhamento</option>
+      <option>Balanceamento</option>
+      <option>Suspensão</option>
+      <option>Freio</option>
+      <option>Borracharia</option>
+      <option>Direção</option>
+      <option>Desempenho de rodas</option>
+    </select>
+
+    <input type="date" id="data" required>
+    <select id="horario" required></select>
+
+    <button type="submit">Confirmar no WhatsApp</button>
+  </form>
+</section>
+
+<footer>
+  <p>WhatsApp: (62) 98591-2998</p>
+  <p>Contato alternativo: (62) 98193-0514</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
